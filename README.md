@@ -24,6 +24,6 @@ Protect the future of your machine learning projects by understanding risks and 
 
 ---
 
-Join us in our mission to promote ethical, secure, and government-compliant AI and ML solutions, making them accessible and mainstream. Together, we can create a safer and more inclusive future. :shield:
+Join us in our mission to promote ethical, secure, and compliant AI and ML solutions, making them accessible and mainstream. Together, we can create a safer and more inclusive future. :shield:
 
 
