@@ -1,10 +1,10 @@
-# ML-Security 
+# AI/ML-Security 
 
 🔐 Protect Your Machine Learning Models and Data
 
-Welcome to the ML-Security repository, your one-stop destination for understanding and implementing robust security practices for machine learning. 
+Welcome to the AI/ML-Security repository, your one-stop destination for understanding and implementing robust security practices for machine learning. 
 
-## :bulb: What We Offer
+## :bulb: Topics & Projects
 
 - 🌐 **Threat Landscape Exploration:** Dive into the ever-evolving world of machine learning security, covering adversarial attacks, data poisoning, and more.
 
