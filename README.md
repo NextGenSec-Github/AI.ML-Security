@@ -24,4 +24,6 @@ Protect the future of your machine learning projects by understanding risks and 
 
 ---
 
-Let's make the world of machine learning safer, one commit at a time. :shield:
+Join us in our mission to promote ethical, secure, and government-compliant AI and ML solutions, making them accessible and mainstream. Together, we can create a safer and more inclusive future. :shield:
+
+
