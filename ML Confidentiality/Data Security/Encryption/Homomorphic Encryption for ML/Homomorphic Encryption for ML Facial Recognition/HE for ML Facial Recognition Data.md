@@ -7,6 +7,8 @@ In this project, we implement homomorphic facial recognition using the TanSeal a
 Make sure to install the TenSeal and required Libraries:
 
 Tenseal: https://github.com/OpenMined/TenSEAL
+
+Deepface Library
 ```bash
 pip install tenseal deepface
 
