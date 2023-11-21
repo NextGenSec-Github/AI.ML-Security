@@ -6,5 +6,5 @@ In this project, we implement homomorphic facial recognition using the TanSeal a
 
 Make sure to install the TenSeal and required Libraries:
 
-Tenseal: [Tenseal](https://github.com/OpenMined/TenSEAL)
+Tenseal: [(https://github.com/OpenMined/TenSEAL)]
 
