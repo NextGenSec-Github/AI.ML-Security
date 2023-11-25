@@ -18,4 +18,3 @@ To run this project, you need to install two main requirements:
    from deepface import deepface
 
 
-
