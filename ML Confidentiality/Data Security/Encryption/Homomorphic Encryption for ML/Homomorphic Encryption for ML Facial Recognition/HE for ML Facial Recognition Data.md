@@ -4,6 +4,10 @@
 
 In this project, we explore homomorphic facial recognition using TenSEAL and the deep face libraries in Python. Homomorphic encryption enables calculations on encrypted data, allowing us to perform facial recognition on encrypted facial embeddings stored in a cloud system.
 
+This project is designed for educational purposes and demonstrates the concept of homomorphic encryption applied to facial embeddings. While the code is functional, it is not intended for production use. It is recommended to thoroughly read through the code and understand the underlying principles of homomorphic encryption before attempting to modify or use it for other purposes.
+
+Note: This project uses specific versions of the tenseal and deepface libraries, and library APIs may change over time. Ensure that you have the correct versions installed.
+
 ## Requirements
 
 To run this project, you need to install two main requirements:
