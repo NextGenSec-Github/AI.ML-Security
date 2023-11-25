@@ -27,6 +27,7 @@ To run this project, you need to install two main requirements:
    ```python
 import tenseal as ts #pip install tenseal
 from deepface import deepface #pip install deepface
+import base64 #Allowing byte objects to stored in base64 
 
 # Load images
 img1_path = "../deepface/tests/dataset/img1.jpg"
@@ -42,7 +43,23 @@ context = ts.context(ts.SCHEME_TYPE.CKKS, poly_modulus_degree=8192, coeff_mod_bi
 context.generate_galois_keys()
 context.global_scale = 2 ** 40
 
-context.serialize(save_secret_key = True)
+# The secret key is serialized and stored in bytes securely using the serialize function.
+secret_context = context.serialize(save_secret_key = True)
+
+def write_data(file_name, file_content): 
+   if type(file_content) == bytes:
+      #bytes to base64
+      file_content = base64.b64encode(file_content)
+   
+   with open(file_name, 'wb') as f:
+      f.write(file_content)
+
+def read_data(file_name):
+   with open(file_name, 'rb') as f:
+      file_content = f.read()
+   base64.b64decode(file_content)
+
+
    ```
 
 
