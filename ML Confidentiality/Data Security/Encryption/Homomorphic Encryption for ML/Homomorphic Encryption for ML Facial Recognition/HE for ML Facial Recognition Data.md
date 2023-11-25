@@ -8,7 +8,7 @@ In this project, we explore homomorphic facial recognition using TenSEAL and the
 
 To run this project, you need to install two main requirements:
 
-1. **TenSEAL**: Install using `pip install tenseal` or an alias `ts` using `pip install tenseal as ts`.
+**TenSEAL**: Install using `pip install tenseal` or an alias `ts` using `pip install tenseal as ts`.
 
    ```bash
    pip install tenseal
