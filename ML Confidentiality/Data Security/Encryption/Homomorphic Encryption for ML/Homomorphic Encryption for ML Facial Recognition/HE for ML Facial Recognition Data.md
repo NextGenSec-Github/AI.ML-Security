@@ -23,8 +23,7 @@ To run this project, you need to install two main requirements:
    from deepface import deepface
   ```
 
-### Facial Embeddings
-To find facial embeddings, we use the deepface library's represent function. Example:
+### Homomorphic Encryption
    ```python
 import tenseal as ts #pip install tenseal
 from deepface import deepface #pip install deepface
