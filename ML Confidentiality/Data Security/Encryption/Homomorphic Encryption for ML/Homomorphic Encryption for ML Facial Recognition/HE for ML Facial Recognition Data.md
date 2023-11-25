@@ -26,16 +26,48 @@ To run this project, you need to install two main requirements:
 ### Facial Embeddings
 To find facial embeddings, we use the deepface library's represent function. Example:
    ```python
-from deepface import deepface
+import tenseal as ts #pip install tenseal
+from deepface import deepface #pip install deepface
 
 # Load images
-image1_path = "dataset/image1.jpg"
-image2_path = "dataset/image2.jpg"
+img1_path = "../deepface/tests/dataset/img1.jpg"
+img2_path = "../deepface/tests/dataset/img2.jpg"
 
 # Find embeddings
-embedding1 = deepface.represent(image1_path, model_name="FaceNet")
-embedding2 = deepface.represent(image2_path, model_name="FaceNet")
+img1_embeddings = DeepFace.represent(img1_path, model_name = 'Facenet')
+img2_embeddings = DeepFace.represent(img2_path, model_name = 'Facenet')
+
+#Initialize the TenSEAL context and generate secret and public key pairs.
+context = ts.context(ts.SCHEME_TYPE.CKKS, poly_modulus_degree=8192, coeff_mod_bit_sizes=[60, 40, 40, 60])
+
+context.generate_galois_keys()
+context.global_scale = 2 ** 40
+
+context.serialize(save_secret_key = True)
    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
