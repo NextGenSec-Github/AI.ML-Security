@@ -103,13 +103,6 @@ euclidean_squared = ts.lazy_ckks_vector_from(read_data(file_name = 'euclidean_sq
 math.euclidean_squared.link_context(context) # Link the vector to the secret key context
 
 euclidean_distance = math.sqrt(euclidean_squared.decrypt()[0])  # Decrypt the result and compute the square root
-
-
-
-
-
-
-
    ```
 
 
