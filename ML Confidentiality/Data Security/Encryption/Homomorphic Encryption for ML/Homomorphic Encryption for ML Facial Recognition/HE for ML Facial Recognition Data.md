@@ -25,18 +25,18 @@ To run this project, you need to install two main requirements:
 
 ### Homomorphic Encryption
    ```python
-import tenseal as ts #pip install tenseal
-from deepface import deepface #pip install deepface
-import base64 #Allowing byte objects to stored in base64 
-import math
-
+import tenseal as ts # Import the tenseal library for homomorphic encryption
+from deepface import deepface # Import the DeepFace library for face recognition
+import base64 # Import the base64 library for encoding/decoding binary data
+import math # Import the math library for mathematical operations
 # Load images
 img1_path = "../deepface/tests/dataset/img1.jpg"
 img2_path = "../deepface/tests/dataset/img2.jpg"
 
 # Find embeddings
-img1_embedding = DeepFace.represent(img1_path, model_name = 'Facenet')
-img2_embedding = DeepFace.represent(img2_path, model_name = 'Facenet')
+img_embeddings = DeepFace.verify(img1_path, img2_path, model_name = 'Facenet')
+img1_embedding = img_embeddings['verified']
+img2_embedding = img_embeddings['verified']
 
 #Initialize the TenSEAL context and generate secret and public key pairs.
 context = ts.context(ts.SCHEME_TYPE.CKKS, poly_modulus_degree=8192, coeff_mod_bit_sizes=[60, 40, 40, 60])
@@ -62,44 +62,49 @@ def read_data(file_name):
    return base64.b64decode(file_content)
 
 
-context.make_context_public()
+context.make_context_public() # Make the context public by removing the secret key
 public_context = context.serialize()
+
+# Write the serialized public key to a file
 write_data(file_name = 'public.txt', file_content = public_context)
 
-del context, secret_context, public_context
+del context, secret_context, public_context # Delete sensitive information
 
 #Encryption Time!
 context = ts.context_from(read_data('secret.txt'))
-enc_v1 = ts.ckks_vector(context, img1_embedding)
-enc_v2 = ts.ckks_vector(context, img2_embedding)
+enc_v1 = ts.ckks_vector(context, img1_embedding) # Encrypt the first image's embeddings
+enc_v2 = ts.ckks_vector(context, img2_embedding) # Encrypt the second image's embeddings
 
-write_data(file_name = 'enc_v1.txt', file_content = enc_v1.serialize())
-write_data(file_name = 'enc_v2.txt', file_content = enc_v2.serialize())
+write_data(file_name = 'enc_v1.txt', file_content = enc_v1.serialize()) # Write the serialized encrypted vector to a file
+write_data(file_name = 'enc_v2.txt', file_content = enc_v2.serialize()) # Write the serialized encrypted vector to a file
 
-del context, enc_v1, enc_v2
+del context, enc_v1, enc_v2 # Delete sensitive information
 
 #Calculations
-context = ts.context_from(read_data('public.txt'))
+context = ts.context_from(read_data('public.txt')) # Load the public key context from the file
 enc_v1 = ts.lazy_ckks_vector_from(read_data(file_name = 'enc_v1.txt'))
 enc_v2 = ts.lazy_ckks_vector_from(read_data(file_name = 'enc_v2.txt'))
 
-enc_v1.link_context(context)
+# Link the vector to the public key context
+enc_v1.link_context(context)  context
 enc_v2.link_context(context)
 
-euclidean_squared = enc_v1 - enc_v2
-euclidean_squared = euclidean_squared.dot(euclidean_squared)
-write_data(file_name = 'euclidean_squared.txt', file_content = euclidean_squared.serialize())
+euclidean_squared = enc_v1 - enc_v2 # Perform operations on the encrypted vectors
+euclidean_squared = euclidean_squared.dot(euclidean_squared) # Compute the dot product of the vectors
+write_data(file_name = 'euclidean_squared.txt', file_content = euclidean_squared.serialize()) # Write the result to a file
 
-euclidean_squared.decrypt()
+euclidean_squared.decrypt() # Decrypt the result
 
-del context, enc_v1, enc_v2, euclidean_squared
+del context, enc_v1, enc_v2, euclidean_squared # Delete sensitive information
 
 #Decryption
-context = ts.context_from(read_data('secret.txt'))
-euclidean_squared = ts.lazy_ckks_vector_from(read_data(file_name = 'euclidean_squared.txt'))
-math.euclidean_squared.link_context(context)
+context = ts.context_from(read_data('secret.txt')) # Load the secret key context from the file
+euclidean_squared = ts.lazy_ckks_vector_from(read_data(file_name = 'euclidean_squared.txt'))  # Load the encrypted result
+math.euclidean_squared.link_context(context) # Link the vector to the secret key context
 
-euclidean_distance = math.sqrt(euclidean_squared.decrypt()[0])
+euclidean_distance = math.sqrt(euclidean_squared.decrypt()[0])  # Decrypt the result and compute the square root
+
+
 
 
 
