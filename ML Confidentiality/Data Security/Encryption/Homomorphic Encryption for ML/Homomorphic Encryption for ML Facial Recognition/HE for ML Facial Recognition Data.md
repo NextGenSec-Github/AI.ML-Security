@@ -12,7 +12,7 @@ To run this project, you need to install two main requirements:
 
    ```bash
    pip install tenseal
-
+   ```
 ### Install DeepFace Library:
    ```bash
    pip install deepface
