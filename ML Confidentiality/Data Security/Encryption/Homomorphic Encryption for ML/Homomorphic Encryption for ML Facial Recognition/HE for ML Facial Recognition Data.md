@@ -1,14 +1,21 @@
-# Homomorphic Encryption on ML Facial Recognition
+# Fully Homomorphic Encrypted Facial Recognition with TenSEAL in Python
 
-In this project, we implement homomorphic facial recognition using the TanSeal and DeepFace libraries. The goal is to encrypt facial embeddings using homomorphic encryption and store them in a cloud system. Despite the cloud system not having access to the secret key, it can still perform calculations, such as finding the Euclidean distance between two encrypted vectors.
+## Introduction
+
+In this project, we explore homomorphic facial recognition using TenSEAL and the deep face libraries in Python. Homomorphic encryption enables calculations on encrypted data, allowing us to perform facial recognition on encrypted facial embeddings stored in a cloud system.
 
 ## Requirements
 
-Make sure to install the TenSeal and required Libraries:
+To run this project, you need to install two main requirements:
 
-Tenseal: https://github.com/OpenMined/TenSEAL
+1. **TenSEAL**: Install using `pip install tenseal` or an alias `ts` using `pip install tenseal as ts`.
 
-Deepface Library:
-```bash
-pip install tenseal deepface
+   ```bash
+   pip install tenseal
+
+### Deep Face Library: Import this requirement from deepface.
+  ```python
+   from deepface import deepface
+
+
 
