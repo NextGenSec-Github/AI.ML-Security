@@ -1,4 +1,4 @@
-# Vulnerability: Search for Victim's Publicly Available Research Materials in Pre-Print Repositories 📚🔍
+# Search for Victim's Publicly Available Research Materials in Pre-Print Repositories 📚🔍
 
 ## Overview
 
