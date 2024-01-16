@@ -17,8 +17,7 @@ Machine learning systems are susceptible to various vulnerabilities and adversar
 ## Example Vulnerabilities
 
 ### 1. [LLM Prompt Injection](#)
-   - Description: Provide a brief description of the vulnerability.
-   - Mitigation: Suggest potential mitigation strategies or best practices.
+   - Description: An adversary may craft malicious prompts as inputs to an LLM that cause the LLM to act in unintended ways. These "prompt injections" are often designed to cause the model to ignore aspects of its original instructions and follow the adversary's instructions instead.
 
 ### 2. [Vulnerability Name 2](#)
    - Description: Provide a brief description of the vulnerability.
