@@ -1,4 +1,4 @@
-# Vulnerability: Search for Victim's Publicly Available Research Materials in Technical Blogs 🧑‍💻📝
+# [Search for Victim's Publicly Available Research Materials in Technical Blogs](https://atlas.mitre.org/techniques/AML.T0000.002) 🧑‍💻📝
 
 ## Overview
 
