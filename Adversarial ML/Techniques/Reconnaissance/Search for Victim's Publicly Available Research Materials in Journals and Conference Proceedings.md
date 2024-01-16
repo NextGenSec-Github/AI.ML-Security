@@ -1,4 +1,4 @@
-# Search for Victim's Publicly Available Research Materials in Journals and Conference Proceedings 📰👀
+# [Search for Victim's Publicly Available Research Materials in Journals and Conference Proceedings](https://atlas.mitre.org/techniques/AML.T0000.000) 📰👀
 
 ## Summary
 
