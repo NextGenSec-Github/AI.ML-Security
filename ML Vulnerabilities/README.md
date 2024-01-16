@@ -6,7 +6,7 @@ This subfolder contains information about various vulnerabilities and security c
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Vulnerabilities](#vulnerabilities)
+2. [Vulnerabilities](#example-vulnerabilities)
 3. [Contributing](#contributing)
 4. [License](#license)
 
@@ -14,7 +14,7 @@ This subfolder contains information about various vulnerabilities and security c
 
 Machine learning systems are susceptible to various vulnerabilities and adversarial attacks. Understanding these vulnerabilities is crucial for building robust and secure ML models. This repository aims to document and categorize known ML vulnerabilities, with a focus on those identified by MITRE ATT&CK for Adversarial Machine Learning.
 
-## Vulnerabilities
+## Example Vulnerabilities
 
 ### 1. [Vulnerability Name 1](#)
    - Description: Provide a brief description of the vulnerability.
