@@ -1,6 +1,6 @@
 # Vulnerability: Search for Victim's Publicly Available Research Materials in Pre-Print Repositories 📚🔍
 
-## Summary
+## Overview
 
 Adversaries can exploit pre-print repositories, such as arXiv, which house the latest academic research papers that haven't undergone peer review. These repositories often include research notes and technical reports that may not be found in traditional journals or conference proceedings. Additionally, pre-print repositories serve as a centralized platform for sharing papers that have been accepted by journals.
 
