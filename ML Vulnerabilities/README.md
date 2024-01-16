@@ -19,11 +19,8 @@ Machine learning systems are susceptible to various vulnerabilities and adversar
 ### 1. [LLM Prompt Injection](#)
    - Description: An adversary may craft malicious prompts as inputs to an LLM that cause the LLM to act in unintended ways. These "prompt injections" are often designed to cause the model to ignore aspects of its original instructions and follow the adversary's instructions instead.
 
-### 2. [Vulnerability Name 2](#)
-   - Description: Provide a brief description of the vulnerability.
-   - Mitigation: Suggest potential mitigation strategies or best practices.
-
-<!-- Add more vulnerabilities as needed -->
+### 2. [Poison Training Data](#)
+   - Description: Adversaries may attempt to poison datasets used by a ML model by modifying the underlying data or its labels. This allows the adversary to embed vulnerabilities in ML models trained on the data that may not be easily detectable. Data poisoning attacks may or may not require modifying the labels. The embedded vulnerability is activated at a later time by data samples with an Insert Backdoor Trigger
 
 ## Contributing
 
