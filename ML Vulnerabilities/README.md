@@ -6,7 +6,7 @@ This subfolder contains information about various vulnerabilities and security c
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Vulnerabilities](#example-vulnerabilities)
+2. [Example Vulnerabilities](#example-vulnerabilities)
 3. [Contributing](#contributing)
 4. [License](#license)
 
