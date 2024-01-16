@@ -1,6 +1,6 @@
 # [Search for Victim's Publicly Available Research Materials in Journals and Conference Proceedings](https://atlas.mitre.org/techniques/AML.T0000.000) 📰👀
 
-## Summary
+## Overview
 
 Adversaries may exploit the wealth of information present in publications from premier machine learning conferences and journals. Many of these publications originate from commercial labs and provide detailed insights into various machine learning approaches, including the specifics necessary for reproducibility. While some journals and conferences are open access, others may require payment for access or a membership.
 
