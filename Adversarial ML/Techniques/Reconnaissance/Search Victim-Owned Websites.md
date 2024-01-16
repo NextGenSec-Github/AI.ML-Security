@@ -16,4 +16,9 @@ Adversaries leverage victim-owned websites to gather actionable information that
 
 4. **Implement Access Controls:** Restrict access to certain sections of victim-owned websites to authorized personnel only.
 
+5. **Limit Release of Public Information:** Limit the public release of technical information about the machine learning stack used in an organization's products or services. Technical knowledge of how machine learning is used can be leveraged by adversaries to perform targeting and tailor attacks to the target system. Additionally, consider limiting the release of organizational information - including physical locations, researcher names, and department structures - from which technical details such as machine learning techniques, model architectures, or datasets may be inferred.
+
+
+
+
 By implementing these mitigation strategies, organizations can reduce the risk of adversaries using victim-owned websites for reconnaissance and targeted attacks.
