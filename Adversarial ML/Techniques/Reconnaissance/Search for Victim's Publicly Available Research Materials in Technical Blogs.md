@@ -1,6 +1,6 @@
 # Vulnerability: Search for Victim's Publicly Available Research Materials in Technical Blogs 🧑‍💻📝
 
-## Summary
+## Overview
 
 Adversaries may exploit information published in technical blogs maintained by research labs at academic institutions or R&D divisions of companies. These blogs often highlight the application of machine learning to unique problems within an organization. Individual researchers frequently document their work, providing a more practical and hands-on perspective compared to journals, conference proceedings, or pre-print repositories.
 
