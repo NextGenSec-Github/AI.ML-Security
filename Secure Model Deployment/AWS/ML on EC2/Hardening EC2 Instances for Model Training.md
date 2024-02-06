@@ -48,6 +48,51 @@ aws ec2 create-network-acl-entry --network-acl-id acl-1234567890abcdef0 --rule-n
 ### IAM Role Configuration 🎭
 - Assigning IAM roles with the principle of least privilege ensures that EC2 instances have the minimum permissions required for model training tasks, reducing the risk of unauthorized access to resources.
 
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": "arn:aws:s3:::your-bucket/*"
+    }
+  ]
+}
+```
+
+
+### SSH Hardening 🔒
+- Securing SSH access to EC2 instances by configuring key-based authentication and disabling password authentication helps prevent unauthorized access and strengthens system security.
+
+Example SSH Configuration (in /etc/ssh/sshd_config):
+```bash
+PasswordAuthentication no
+PubkeyAuthentication yes
+```
+
+## 4. Data Encryption 🔐
+
+### Encryption at Rest 📦
+- Encrypting sensitive data stored on EBS volumes attached to EC2 instances using AWS Key Management Service (KMS) protects data confidentiality and integrity, even if the volumes are compromised.
+
+Example Encryption:
+```bash
+aws ec2 create-volume --size 100 --availability-zone us-east-1a --encrypted
+```
+
+### Encryption in Transit 📡
+- Enabling HTTPS encryption for data transfer between EC2 instances and other AWS services ensures secure communication channels, mitigating the risk of data interception or tampering.
+
+Example HTTPS Configuration:
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"data": "example_data"}' https://your_endpoint_url
+```
+
+
 
 
 
