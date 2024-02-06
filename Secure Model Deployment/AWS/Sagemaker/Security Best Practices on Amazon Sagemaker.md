@@ -1,7 +1,5 @@
 # Secure Best Practices on Amazon SageMaker
 
-Amazon SageMaker is a fully managed service that enables developers and data scientists to build, train, and deploy machine learning models at scale. Ensuring the security of your SageMaker environment is crucial to protect sensitive data and prevent unauthorized access. This document outlines best practices for securing your Amazon SageMaker instances and resources.
-
 ## Introduction to Amazon SageMaker Security
 
 Amazon SageMaker is a fully managed service that enables developers and data scientists to build, train, and deploy machine learning models at scale. As with any cloud service, ensuring the security of your SageMaker environment is paramount to protect sensitive data and prevent unauthorized access. This document outlines best practices for securing your Amazon SageMaker instances and resources.
