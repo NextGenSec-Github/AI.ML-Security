@@ -13,7 +13,7 @@ sudo yum update -y
 
 ```
 
-## Disable Unnecessary Services 🚫
+### Disable Unnecessary Services 🚫
 
 Disabling unnecessary services and daemons reduces the attack surface of EC2 instances, minimizing potential security risks and enhancing overall system security.
 
@@ -25,7 +25,7 @@ sudo systemctl disable service_name
 
 ## 2. Network Security 🌐
 
-## Firewall Configuration 🛡️
+### Firewall Configuration 🛡️
 Configuring firewall rules helps control inbound and outbound traffic to EC2 instances, allowing only necessary ports and protocols for model training tasks.
 
 Example:
