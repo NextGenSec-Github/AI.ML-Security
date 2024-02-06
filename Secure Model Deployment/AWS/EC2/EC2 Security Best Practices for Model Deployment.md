@@ -62,11 +62,38 @@ curl -X POST -H "Content-Type: application/json" -d '{"data": "example_data"}' h
 
 Securing the underlying operating system of EC2 instances is essential for protecting against common security threats. Consider the following OS hardening practices:
 
-**Patch Management:** Regularly apply security patches and updates to the operating system and installed software packages to address known vulnerabilities.
+- **Patch Management:** Regularly apply security patches and updates to the operating system and installed software packages to address known vulnerabilities.
 
 - **Filesystem Permissions:** Restrict access permissions to sensitive ML data and configuration files, following the principle of least privilege.
 **Example Command (Linux):**
 ```bash
 chmod 600 sensitive_data.txt
 ```
+
+## 5. Monitoring and Logging 📊
+
+Continuous monitoring and logging are essential for detecting and responding to security incidents in ML environments. Implement the following monitoring and logging practices:
+
+- **CloudWatch Metrics:** Monitor EC2 instance metrics such as CPU utilization, memory usage, and network traffic to detect abnormal behavior or resource exhaustion.
+
+- **CloudTrail Logs:** Enable AWS CloudTrail to log API activity and AWS Management Console actions, providing visibility into user and resource activity for auditing and troubleshooting purposes.
+
+**Example CloudTrail Configuration:**
+```bash
+aws cloudtrail create-trail --name my-trail --s3-bucket-name my-bucket
+```
+
+# Conclusion 🎉
+
+Implementing robust security measures is essential for protecting machine learning workloads deployed on Amazon EC2 instances. By following the security best practices outlined in this document, you can enhance the security posture of your EC2-based ML infrastructure and mitigate potential security risks effectively.
+
+
+
+
+
+
+
+
+
+
 
