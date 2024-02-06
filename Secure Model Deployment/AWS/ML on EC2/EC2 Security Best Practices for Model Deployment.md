@@ -83,6 +83,22 @@ Continuous monitoring and logging are essential for detecting and responding to 
 aws cloudtrail create-trail --name my-trail --s3-bucket-name my-bucket
 ```
 
+## 6. Data Loss Prevention (DLP)
+
+Implement measures to prevent unauthorized access, transmission, or leakage of sensitive ML data:
+
+- **Data Classification:** Classify ML data based on sensitivity levels and implement appropriate access controls and encryption mechanisms.
+
+- **Data Loss Prevention Tools:** Utilize DLP tools to monitor and prevent unauthorized data access or exfiltration from EC2 instances.
+
+## 7. Endpoint Protection
+
+Protect EC2 instances from malware and unauthorized software installations:
+
+- **Antivirus/Anti-malware Software:** Install and regularly update antivirus/anti-malware software on EC2 instances to detect and mitigate threats.
+
+- **Application Whitelisting:** Implement application whitelisting to allow only approved applications to run on EC2 instances, reducing the risk of malware execution.
+
 # Conclusion 🎉
 
 Implementing robust security measures is essential for protecting machine learning workloads deployed on Amazon EC2 instances. By following the security best practices outlined in this document, you can enhance the security posture of your EC2-based ML infrastructure and mitigate potential security risks effectively.
