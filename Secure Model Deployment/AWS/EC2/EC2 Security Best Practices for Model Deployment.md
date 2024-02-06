@@ -49,14 +49,24 @@ Source: Custom IP (Your IP address)
 
 Protecting data at rest and in transit is critical for maintaining data confidentiality and integrity in ML workflows. Implement encryption mechanisms as follows:
 
-**Encryption at Rest:** Use AWS Key Management Service (KMS) to encrypt ML data stored on EBS volumes attached to EC2 instances.
+- **Encryption at Rest:** Use AWS Key Management Service (KMS) to encrypt ML data stored on EBS volumes attached to EC2 instances.
 
-**ncryption in Transit:** Enable HTTPS encryption for data transfer between EC2 instances and other AWS services, ensuring secure communication channels.
+- **Encryption in Transit:** Enable HTTPS encryption for data transfer between EC2 instances and other AWS services, ensuring secure communication channels.
 
 **Example HTTPS Endpoint Configuration:**
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"data": "example_data"}' https://your_endpoint_url
 ```
 
+## 4. Operating System (OS) Hardening 🛡️
 
+Securing the underlying operating system of EC2 instances is essential for protecting against common security threats. Consider the following OS hardening practices:
+
+**Patch Management:** Regularly apply security patches and updates to the operating system and installed software packages to address known vulnerabilities.
+
+- **Filesystem Permissions:** Restrict access permissions to sensitive ML data and configuration files, following the principle of least privilege.
+**Example Command (Linux):**
+```bash
+chmod 600 sensitive_data.txt
+```
 
