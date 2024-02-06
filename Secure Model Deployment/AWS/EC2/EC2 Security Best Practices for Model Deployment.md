@@ -29,3 +29,34 @@ IAM roles play a vital role in managing access to AWS resources securely. When d
 - **Temporary Credentials:** Use IAM roles to grant temporary credentials to EC2 instances, reducing the risk of long-term credential exposure.
 
 - **Role-Based Access Control (RBAC):** Implement role-based access control to manage permissions based on job responsibilities, ensuring that only authorized users can perform specific ML tasks.
+
+## 2. Network Security 🌐
+
+Securing network traffic to and from EC2 instances is essential for protecting ML data and resources. Consider the following security measures:
+
+- **VPC and Subnet Isolation:** Deploy EC2 instances in Virtual Private Cloud (VPC) subnets and implement network access control lists (ACLs) to restrict inbound and outbound traffic.
+
+**Security Groups:** Configure security groups to control traffic at the instance level, allowing only necessary ports and protocols for ML workloads.
+
+```bash
+Example Security Group Rule:
+Type: Custom TCP
+Port Range: 443 (HTTPS)
+Source: Custom IP (Your IP address)
+```
+
+## 3. Data Encryption 🔐
+
+Protecting data at rest and in transit is critical for maintaining data confidentiality and integrity in ML workflows. Implement encryption mechanisms as follows:
+
+**Encryption at Rest:** Use AWS Key Management Service (KMS) to encrypt ML data stored on EBS volumes attached to EC2 instances.
+
+**ncryption in Transit:** Enable HTTPS encryption for data transfer between EC2 instances and other AWS services, ensuring secure communication channels.
+
+**Example HTTPS Endpoint Configuration:**
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"data": "example_data"}' https://your_endpoint_url
+```
+
+
+
