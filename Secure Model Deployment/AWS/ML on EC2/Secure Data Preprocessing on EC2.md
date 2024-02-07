@@ -56,12 +56,41 @@ Example IAM Policy:
 }
 ```
 
+### Filesystem Permissions 🔒
+Apply restrictive filesystem permissions to raw data and preprocessing scripts, limiting access to only authorized users or processes. Filesystem permissions control read, write, and execute permissions on files and directories.
 
+#### Restrictive Permissions with chmod
+Use the chmod command to set permissions on files and directories. Restrict access to sensitive data and scripts to prevent unauthorized modification or deletion.
 
+Example Permission Setting:
+```bash
+chmod 600 sensitive_data.csv
+```
 
+## 3. Secure Data Transfer Mechanisms
+Utilize secure data transfer mechanisms to prevent data interception or tampering during preprocessing tasks.
 
+### Encrypted SSH/SFTP 🛡️
+Establish SSH or SFTP connections to EC2 instances using encrypted communication channels to securely transfer raw data and preprocessing scripts. Encrypted SSH/SFTP connections protect data in transit from eavesdropping and interception.
 
+#### Secure File Transfer with SSH
+Secure Shell (SSH) provides encrypted communication between client and server. Use SSH for secure command-line access and file transfer to EC2 instances.
 
+Example SSH/SFTP Connection:
+```bash
+scp -i your_private_key.pem your_file.csv user@your_ec2_instance:/path/to/destination
+```
 
+### AWS Transfer Family 🚀
+Utilize AWS Transfer Family services such as AWS Transfer for SFTP or AWS Transfer for FTPS to enable secure file transfers to and from EC2 instances. AWS Transfer Family simplifies the setup and management of secure file transfer protocols, ensuring data security and compliance.
 
+#### AWS Transfer for SFTP
+AWS Transfer for SFTP is a fully managed service that enables you to transfer files over SFTP directly into and out of Amazon S3. Use AWS Transfer for SFTP to securely transfer files to and from EC2 instances without managing servers or infrastructure.
 
+Example AWS Transfer Configuration:
+```bash
+aws transfer create-server --identity-provider-type SERVICE_MANAGED --protocol SFTP
+```
+
+# Conclusion 🎉
+Securing data preprocessing on EC2 instances is vital to safeguard sensitive information and ensure the integrity of machine learning workflows. By implementing encryption, access controls, and secure data transfer mechanisms as outlined in this document, you can enhance the security posture of your data preprocessing tasks on Amazon EC2.
