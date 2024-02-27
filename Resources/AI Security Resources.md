@@ -16,6 +16,8 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **["Securing Machine Learning Algorithms"](https://air.unimi.it/retrieve/dfa8b9a8-d4b0-748b-e053-3a05fe0a3a96/ENISA%20Report%20-%20Securing%20Machine%20Learning%20Algorithms.pdf)** - Discover essential strategies and techniques for safeguarding the integrity and security of machine learning algorithms in various applications.
 
+- **["NIST: Prinicples for the security of machine learning"](https://www.ncsc.gov.uk/collection/machine-learning)** - These principles aim to be wide reaching and applicable to anyone developing, deploying or operating a system with a machine learning (ML) component. 
+
 
 ## Tools
 
