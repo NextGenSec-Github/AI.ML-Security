@@ -22,4 +22,16 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **[AI Risk Database](https://airisk.io/)** - The AI Risk Database is a tool for discovering and reporting the risks associated with public machine learning models.
 
+- **[OWASP LLM Security Checklist](https://owasp.org/www-project-top-10-for-large-language-model-applications/llm-top-10-governance-doc/LLM_AI_Security_and_Governance_Checklist-v1.pdf)** - The OWASP LLM Security Checklist provides a comprehensive list of security considerations and best practices specifically tailored for the development and deployment of Large Language Models.
+
+
+
+  
+## Threat Intel
+
 - **[ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/)** - The ATLAS Matrix (based on the MITRE ATT&CK framework) is the authoritative resource aiding cybersecurity professionals, data scientists, and companies to track and counter adversarial machine learning attacks.
+
+- **[OWASP ML Security Top 10](https://owasp.org/www-project-machine-learning-security-top-10/)** - Delivers an overview of the top 10 security issues of machine learning systems.
+
+
+
