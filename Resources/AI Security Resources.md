@@ -4,15 +4,9 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 ## Books
 
-- **"Artificial Intelligence Safety and Security" by Roman V. Yampolskiy** - Provides an overview of various safety and security concerns related to artificial intelligence.
+- **["Artificial Intelligence Safety and Security"](https://www.amazon.com/Artificial-Intelligence-Security-Chapman-Robotics/dp/0815369824)** - Provides an overview of various safety and security concerns related to artificial intelligence. 
   
 - **"Future Crimes: Inside the Digital Underground and the Battle for Our Connected World" by Marc Goodman** - Discusses the implications of AI and emerging technologies on cybersecurity.
-
-## Online Courses
-
-- **Coursera: AI For Everyone by Andrew Ng** - Provides a non-technical introduction to AI, including discussions on ethical and societal implications.
-
-- **edX: Cybersecurity Fundamentals by RIT (Rochester Institute of Technology)** - Covers fundamental cybersecurity concepts, including those relevant to AI security.
 
 ## Articles and Papers
 
