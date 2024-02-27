@@ -6,11 +6,9 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **["Artificial Intelligence Safety and Security"](https://www.amazon.com/Artificial-Intelligence-Security-Chapman-Robotics/dp/0815369824)** - Provides an overview of various safety and security concerns related to artificial intelligence. 
   
-- **"Future Crimes: Inside the Digital Underground and the Battle for Our Connected World" by Marc Goodman** - Discusses the implications of AI and emerging technologies on cybersecurity.
-
 ## Articles and Papers
 
-- **"Adversarial Machine Learning" by Battista Biggio et al.** - Provides an overview of adversarial machine learning techniques and their implications for security.
+- ["Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning"](https://arxiv.org/pdf/1712.03141.pdf) - Provides an overview of adversarial machine learning techniques and their implications for security.
 
 - **"The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation" by Brundage et al.** - Discusses potential malicious uses of AI and strategies for mitigating associated risks.
 
