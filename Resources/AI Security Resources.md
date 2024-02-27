@@ -8,7 +8,7 @@ A curated list of resources for learning about and staying up-to-date with AI se
   
 ## Articles and Papers
 
-- ["Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning"](https://arxiv.org/pdf/1712.03141.pdf) - Provides an overview of adversarial machine learning techniques and their implications for security.
+- **["Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning"](https://arxiv.org/pdf/1712.03141.pdf)** - Provides an overview of adversarial machine learning techniques and their implications for security.
 
 - **["The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation"](https://arxiv.org/pdf/1802.07228.pdf)** - Discusses potential malicious uses of AI and strategies for mitigating associated risks.
 
@@ -17,3 +17,5 @@ A curated list of resources for learning about and staying up-to-date with AI se
 - **[CleverHans](https://github.com/cleverhans-lab/cleverhans)** - A Python library for testing and benchmarking machine learning models' vulnerability to adversarial attacks.
 
 - **[IBM Adversarial Robustness Toolbox (ART)](https://research.ibm.com/projects/adversarial-robustness-toolbox)** - An open-source toolkit for adversarial machine learning security.
+
+- **[AI Incident Database](https://incidentdatabase.ai/)** - The AI Incident Database is dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of artificial intelligence systems. 
