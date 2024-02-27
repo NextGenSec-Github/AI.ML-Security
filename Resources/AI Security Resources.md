@@ -26,6 +26,10 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **[OWASP LLM Security Checklist](https://owasp.org/www-project-top-10-for-large-language-model-applications/llm-top-10-governance-doc/LLM_AI_Security_and_Governance_Checklist-v1.pdf)** - The OWASP LLM Security Checklist provides a comprehensive list of security considerations and best practices specifically tailored for the development and deployment of Large Language Models.
 
+- **[PyRit](https://github.com/Azure/PyRIT)** - The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and ML engineers to red team foundation models and their applications.
+
+
+
 
 
   
