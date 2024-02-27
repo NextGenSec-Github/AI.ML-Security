@@ -19,3 +19,7 @@ A curated list of resources for learning about and staying up-to-date with AI se
 - **[IBM Adversarial Robustness Toolbox (ART)](https://research.ibm.com/projects/adversarial-robustness-toolbox)** - An open-source toolkit for adversarial machine learning security.
 
 - **[AI Incident Database](https://incidentdatabase.ai/)** - The AI Incident Database is dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of artificial intelligence systems. 
+
+- **[AI Risk Database](https://airisk.io/)** - The AI Risk Database is a tool for discovering and reporting the risks associated with public machine learning models.
+
+- **[ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/)** - The ATLAS Matrix (based on the MITRE ATT&CK framework) is the authoritative resource aiding cybersecurity professionals, data scientists, and companies to track and counter adversarial machine learning attacks.
