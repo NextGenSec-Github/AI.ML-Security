@@ -4,7 +4,9 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 ## Books
 
-- **["Artificial Intelligence Safety and Security"](https://www.amazon.com/Artificial-Intelligence-Security-Chapman-Robotics/dp/0815369824)** - Provides an overview of various safety and security concerns related to artificial intelligence. 
+- **["Artificial Intelligence Safety and Security"](https://www.amazon.com/Artificial-Intelligence-Security-Chapman-Robotics/dp/0815369824)** - Provides an overview of various safety and security concerns related to artificial intelligence.
+
+- **["Must Learn AI Security"](https://github.com/rod-trent/OpenAISecurity/blob/main/Must_Learn/Book_Version/Must%20Learn%20AI%20Security%20Book.pdf)** - A book by the highly knowledgeable and respected Rod Trent. His [GitHub](https://github.com/rod-trent/OpenAISecurity) repo is a goldmine full of valuable learning resources
   
 ## Articles and Papers
 
