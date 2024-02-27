@@ -14,6 +14,9 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **["The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation"](https://arxiv.org/pdf/1802.07228.pdf)** - Discusses potential malicious uses of AI and strategies for mitigating associated risks.
 
+- **["Securing Machine Learning Algorithms"](https://air.unimi.it/retrieve/dfa8b9a8-d4b0-748b-e053-3a05fe0a3a96/ENISA%20Report%20-%20Securing%20Machine%20Learning%20Algorithms.pdf)** - Discover essential strategies and techniques for safeguarding the integrity and security of machine learning algorithms in various applications.
+
+
 ## Tools
 
 - **[CleverHans](https://github.com/cleverhans-lab/cleverhans)** - A Python library for testing and benchmarking machine learning models' vulnerability to adversarial attacks.
@@ -28,11 +31,6 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **[PyRit](https://github.com/Azure/PyRIT)** - The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and ML engineers to red team foundation models and their applications.
 
-
-
-
-
-  
 ## Threat Intel
 
 - **[ATLAS Matrix](https://atlas.mitre.org/matrices/ATLAS/)** - The ATLAS Matrix (based on the MITRE ATT&CK framework) is the authoritative resource aiding cybersecurity professionals, data scientists, and companies to track and counter adversarial machine learning attacks.
@@ -40,5 +38,12 @@ A curated list of resources for learning about and staying up-to-date with AI se
 - **[OWASP ML Security Top 10](https://owasp.org/www-project-machine-learning-security-top-10/)** - Delivers an overview of the top 10 security issues of machine learning systems.
 
 - **[OWASP LLM Security Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs).
+
+
+
+
+
+
+
 
 
