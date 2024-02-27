@@ -14,6 +14,6 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 ## Tools
 
-- **CleverHans** - A Python library for testing and benchmarking machine learning models' vulnerability to adversarial attacks.
+- **[CleverHans](https://github.com/cleverhans-lab/cleverhans)** - A Python library for testing and benchmarking machine learning models' vulnerability to adversarial attacks.
 
-- **IBM Adversarial Robustness Toolbox (ART)** - An open-source toolkit for adversarial machine learning security.
+- **[IBM Adversarial Robustness Toolbox (ART)](https://research.ibm.com/projects/adversarial-robustness-toolbox)** - An open-source toolkit for adversarial machine learning security.
