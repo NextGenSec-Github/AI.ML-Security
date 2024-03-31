@@ -1,0 +1,12 @@
+# Identifying Assets
+In this section, we identify the assets associated with the machine learning (ML) model. Assets encompass various components, data, and resources that are essential for the functioning and integrity of the ML system. Understanding and prioritizing these assets are crucial for effective threat modeling.
+
+### Training Data
+
+- The training data used to train the ML model is a critical asset. It includes:
+  - Raw data samples used for model training.
+  - Data features, attributes, or variables utilized by the model.
+  - Data labeling or annotation provided for supervised learning tasks.
+- Assess the quality, diversity, and representativeness of the training data.
+- Consider the sensitivity and privacy implications of the training data, especially if it contains personally identifiable information (PII) or sensitive business data.
+
