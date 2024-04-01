@@ -1,0 +1,41 @@
+# Mitigation Strategies
+
+In this section, we outline strategies to mitigate the identified threats to the machine learning (ML) model. These mitigation strategies aim to enhance the security, robustness, and resilience of the ML system against potential attacks and vulnerabilities.
+
+## 1. Data Poisoning Mitigation:
+- Implement data validation and sanitization techniques to detect and remove anomalous or malicious data points from the training dataset.
+- Apply data augmentation and diversity-promoting methods to increase the model's resilience to poisoning attacks.
+- Utilize anomaly detection algorithms to identify and flag suspicious data patterns during the data preprocessing phase.
+
+## 2. Adversarial Attack Mitigation:
+- Employ adversarial training techniques to augment the training dataset with adversarial examples, making the model more robust to adversarial perturbations.
+- Apply input preprocessing methods such as feature scaling, normalization, and whitening to mitigate the effectiveness of adversarial attacks.
+- Utilize adversarial detection mechanisms such as adversarial example detectors, robustness verification, or uncertainty estimation to detect and filter out adversarial inputs during inference.
+
+## 3. Model Inversion Mitigation:
+- Apply differential privacy techniques to add noise to the model's outputs, making it harder for attackers to infer sensitive information from the model's predictions.
+- Utilize output perturbation methods such as adding noise or randomization to the model's predictions to prevent precise inference of sensitive data.
+- Implement access controls and authentication mechanisms to restrict access to sensitive model outputs and prevent unauthorized disclosure of information.
+
+## 4. Model Stealing Mitigation:
+- Apply model watermarking techniques to embed unique identifiers or signatures into the ML model's architecture or parameters, allowing for the detection of unauthorized copies or replicas.
+- Utilize model encryption and obfuscation methods to protect the confidentiality and integrity of the ML model's parameters and structure.
+- Implement runtime integrity checks and tamper-proofing mechanisms to detect and prevent unauthorized modifications to the deployed ML model.
+
+## 5. Data Leakage Mitigation:
+- Implement data anonymization and de-identification techniques to remove or obfuscate personally identifiable information (PII) and sensitive attributes from the training data.
+- Utilize data masking and tokenization methods to replace sensitive data elements with surrogate values or tokens during model training and inference.
+- Conduct privacy impact assessments and data lineage tracking to identify and mitigate potential sources of data leakage throughout the ML model lifecycle.
+
+
+
+
+
+
+
+
+
+
+
+
+
