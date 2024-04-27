@@ -47,4 +47,5 @@ A curated list of resources for learning about and staying up-to-date with AI se
 - **[OpenAI Research](https://openai.com/research)**
 - **[MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/)**
 - **[Carnegie Mellon University CyLab](https://www.cylab.cmu.edu/research/index.html)**
-
+- **[IEEE Security & Privacy](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8013)**
+- **[ArXiv](https://arxiv.org/)**
