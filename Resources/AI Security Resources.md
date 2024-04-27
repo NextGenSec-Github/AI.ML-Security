@@ -43,11 +43,8 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 ## Research
 - **[Google Research](https://research.google/pubs/?category=security-privacy-and-abuse-prevention)**
-
-
-
-
-
-
-
+- **[Microsoft Research](https://www.microsoft.com/en-us/research/)**
+- **[OpenAI Research](https://openai.com/research)**
+- **[MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/)**
+- **[Carnegie Mellon University CyLab](https://www.cylab.cmu.edu/research/index.html)**
 
