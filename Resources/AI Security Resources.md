@@ -41,6 +41,8 @@ A curated list of resources for learning about and staying up-to-date with AI se
 
 - **[OWASP LLM Security Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs).
 
+## Research
+- **[Google Research](https://research.google/pubs/?category=security-privacy-and-abuse-prevention)**
 
 
 
